@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+//2. Em uma relação com 5 atributos, qual o número máximo possível de índices
+//        primários e secundários ao mesmo tempo? Justifique.
+//                      Resposta:
+//    índices primários so teria 1, enquanto os secundários poderia ter todas as
+//    as combinações possíveis
 
 public class Main {
     public static void main(String[] args) {
@@ -29,4 +34,5 @@ public class Main {
         else {
             System.out.println("nao ha posiçoes para listar");
         }
+
     }}}
